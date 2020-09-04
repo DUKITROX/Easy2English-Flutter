@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "964064261928",
+    "firebase_url": "https://easy2english-df1eb.firebaseio.com",
+    "project_id": "easy2english-df1eb",
+    "storage_bucket": "easy2english-df1eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964064261928:android:875d31c12c72a92f9b421d",
+        "android_client_info": {
+          "package_name": "com.Easy2English.Easy2English"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964064261928-3lc5a5ibkq07qbellsqqtfp9b6vnp4nt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYf7YywEALwdF-DQlmJBbwtlyMUGDPYtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964064261928-3lc5a5ibkq07qbellsqqtfp9b6vnp4nt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
