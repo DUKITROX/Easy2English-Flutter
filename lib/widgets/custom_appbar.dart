@@ -3,7 +3,7 @@ import 'package:Easy2English/styles.dart';
 
 class Custom_AppBar extends StatelessWidget implements PreferredSizeWidget{
 
-  Custom_AppBar({this.actions,@required this.text, this.center_title});
+  Custom_AppBar({this.actions, this.center_title:true,@required this.text});
 
   final String text;
   final bool center_title;

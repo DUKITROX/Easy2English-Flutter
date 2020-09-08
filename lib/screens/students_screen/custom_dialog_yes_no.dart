@@ -24,6 +24,7 @@ class Custom_Dialog_Yes_No extends StatelessWidget {
         child: Column(
           children: [
             Container(
+              padding: EdgeInsets.all(12),
               height: 100,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.only(

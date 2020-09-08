@@ -91,15 +91,15 @@ class _Sign_Up_ScreenState extends State<Sign_Up_Screen> {
         //confirmation_text_style = Entry_TextStyle;
         is_loading = true;
       });
-      Authentication_Methods.sign_up(email_editing_controller.text.trim(), password_editing_controller.text.trim()).then((value){
-        if(value){
-
-        }else{
-          setState(() {
-            is_loading = false;
-          });
-        }
-      });
+      //Authentication_Methods.sign_up(email_editing_controller.text.trim(), password_editing_controller.text.trim()).then((value){
+      //  if(value){
+//
+      //  }else{
+      //    setState(() {
+      //      is_loading = false;
+      //    });
+      //  }
+      //});
     }
   }
   @override
