@@ -1,3 +1,4 @@
+import 'package:Easy2English/screens/calendar_screen/calendar_screen.dart';
 import 'package:Easy2English/screens/sign_in_screen/sign_in_screen.dart';
 import 'package:Easy2English/screens/students_screen/custom_dialog_register.dart';
 import 'package:Easy2English/screens/students_screen/custom_dialog_yes_no.dart';
@@ -20,7 +21,10 @@ class _Students_ScreenState extends State<Students_Screen> {
         context: context,
         builder:(_)=>Custom_Dialog_Yes_No(
           text: "¿Quiere cerrar sesión?",
-          onPressed:()=>Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>Sign_In_Screen())),
+          onPressed:(){
+            Navigator.pop(context);
+            Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>Sign_In_Screen()));
+          }
         )
       );
     }else if(value=="Eliminar Cuenta"){
@@ -28,7 +32,10 @@ class _Students_ScreenState extends State<Students_Screen> {
         context: context,
         builder:(_)=>Custom_Dialog_Yes_No(
           text: "¿Está seguro de que quiere eliminar esta cuenta?",
-          onPressed:()=>Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>Sign_In_Screen())),
+          onPressed:(){
+            Navigator.pop(context);
+            Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>Sign_In_Screen()));
+          }
         )
       );
     }
@@ -58,7 +65,7 @@ class _Students_ScreenState extends State<Students_Screen> {
               level: "PR 5",
               schedule: "asdadasda",
               teacher: "Dunkito",
-              onPressed: ()=>print("pressed"),
+              onPressed: ()=>Navigator.push(context, MaterialPageRoute(builder: (context)=>Calendar_Screen())),
             ),
           ],
         ),

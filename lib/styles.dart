@@ -59,6 +59,11 @@ final Comfortaa_Regular_TextSyle = TextStyle(
   fontSize: 15,
   color: blue_color
 );
+final Comfortaa_Regular_Small_TextSyle = TextStyle(
+  fontFamily: "Comfortaa",
+  fontSize: 12,
+  color: blue_color
+);
 final Comfortaa_White_TextStyle = TextStyle(
   fontFamily: "Comfortaa",
   fontSize: 15,
@@ -86,8 +91,24 @@ final Libel_Suit_Small_White_TextStyle = TextStyle(
   fontSize: 18,
   color: Colors.white
 );
+final Libel_Suit_Small_Grey_TextStyle = TextStyle(
+  fontFamily: "Libel-Suit",
+  fontSize: 18,
+  color: Colors.grey[600],
+);
 final Libel_Suit_Small_Blue_TextStyle = TextStyle(
   fontFamily: "Libel-Suit",
   fontSize: 18,
   color: blue_color
+);
+
+final Calendar_White_TextStyle = TextStyle(
+  fontFamily: "Libel-Suit",
+  fontSize: 54,
+  color: Colors.white,
+);
+final Calendar_Grey_TextStyle = TextStyle(
+  fontFamily: "Libel-Suit",
+  fontSize: 54,
+  color: Colors.grey
 );

@@ -53,7 +53,7 @@ class Custom_Dialog_Yes_No extends StatelessWidget {
                       text: "Sí",
                       color: grey_color,
                       text_style: Libel_Suit_Small_Blue_TextStyle,
-                      onPressed: onPressed
+                      onPressed:onPressed
                     ),
                     Yes_No_Button(
                       text:"No",
