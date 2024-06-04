@@ -1,16 +1,7 @@
-# Easy2English
+Easy2English Mobile App
 
-A new Flutter project.
+A mobile app designed for clients of a language learning institution, with features such as visualization of their own personalized schedule, their exam results, a system for submiting homework and recieving feedback from their teachers among other things.
 
-## Getting Started
+This app goes hand in hand with my other repo (Easy2English-python) where you would have the desktop version for the teacher's view.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Here are some screenshots of the app itself
