@@ -1,4 +1,4 @@
-Easy2English Mobile App
+# Easy2English Mobile App
 
 A mobile app designed for clients of a language learning institution, with features such as visualization of their own personalized schedule, their exam results, a system for submiting homework and recieving feedback from their teachers among other things.
 
